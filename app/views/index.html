@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  {{serviceName}}
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        {{serviceName}}
+      </h1>
+      <h2 class="govuk-heading-m">v0.2 Summary of the changes
+      </h2>
+      <p><a href="0-2/start">Prototype</a></p>
+      <p class="govuk-body">Work we did:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <p class="govuk-body"><a href="#">
+          This is some example work we did</a></p>
+        </li>
+        <li>
+          <p class="govuk-body"><a href="https://trello.com/c/SIB1pgD2/489-increment-prototype-to-v6">
+          Increment the prototype to v0.6</a></p>
+        </li>
+      </ul>
+      <h2 class="govuk-heading-m">v0.1 Set up the prototype</h2>
+      <p><a href="0-1/start">Prototype</a></p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <p class="govuk-body"><a href="#">Set up versioning</a></p>
+        </li>
+        <li>
+          <p class="govuk-body"><a href="#">Set up the repo</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
