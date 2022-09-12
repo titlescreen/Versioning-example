@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  {{serviceName}}
+{% endblock %}
+
+{% block beforeContent %}
+  <a href="../index" class="govuk-back-link">Back</a>
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        This is another page
+      </h1>
+      <p>It did not exist in version 1 of the prototype.</p>
+    </div>
+  </div>
+{% endblock %}

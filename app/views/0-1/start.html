@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  {{serviceName}}
+{% endblock %}
+
+{% block beforeContent %}
+  <a href="../index" class="govuk-back-link">Back</a>
+{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        This is version 1 of the prototype
+      </h1>
+      <p>You can enjoy the page but there is not a lot in it. Why not check out
+        version 2? Go back to the index page and click the version 2 prototype
+        link.</p>
+    </div>
+  </div>
+{% endblock %}
